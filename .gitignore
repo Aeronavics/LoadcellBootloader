@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# Generated libraries
+Modules/mavlink_generated
+Modules/dsdl_generated
+
+# Build artifacts
+Debug
