@@ -75,7 +75,7 @@ int main(void)
         Boot();
     }
 
-    Libcanard_module::get_driver().set_name("dfu.aeronavics.SprayCtrl");
+    Libcanard_module::get_driver().set_name("dfu.aeronavics.loadcell");
     HAL_Init();
 
     /* Configure the system clock to 72 MHz */
