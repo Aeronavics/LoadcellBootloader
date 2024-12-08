@@ -75,7 +75,7 @@ int main(void)
         Boot();
     }
 
-    Libcanard_module::get_driver().set_name("dfu.aeronavics.loadcell");
+    Libcanard_module::get_driver().set_name("dfu.aeronavics.STM32L4XX");
     HAL_Init();
 
     /* Configure the system clock to 72 MHz */
